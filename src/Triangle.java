@@ -4,9 +4,9 @@ public class Triangle {
     double c;
 
  public void square(){
-        System.out.println(a*b*c/2);
 
-
+     double s = (a+b+c)/2;
+     System.out.println(s);
+     }
     }
 
-}

@@ -10,16 +10,6 @@ public class Main {
     public static void main(String[] arg) {
 
 
-//        System.out.println(Math.sqrt(10));
-//        // 2*2*2
-//        System.out.println(Math.pow(2,3));
-//        //Баашын эле берет
-//        System.out.println(Math.round(3.4));
-//        // Паталок
-//        System.out.println(Math.ceil(4.1));
-//        // ылдый
-//        System.out.println(Math.floor(5.5));
-
 
 
 //     Срок сдачи: ----
@@ -29,20 +19,47 @@ public class Main {
 //метод "площадь" полелериндеги маалыматтарга(маалымат объектти тузгондон кийин берилет)
 //таянып консолго уч бурчтуктун аянтын чыгарсын.
 
-        Scanner sc = new Scanner(System.in);
-        Triangle triangle = new Triangle();
-        triangle.a=sc.nextInt();
-        triangle.b=sc.nextInt();
-        triangle.c=sc.nextInt();
-        triangle.square();
 
+//        Scanner sc = new Scanner(System.in);
+//        Triangle triangle = new Triangle();
+//         triangle.a=sc.nextInt();
+//         triangle.b=sc.nextInt();
+//        triangle.c=sc.nextInt();
+//         triangle.square();
+  //      System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
+//        Task5:OOP-----------
 
-
-
-
-
-
+//        Gul gul = new Gul();
+//        gul.flowerName = "Роза";
+//        gul.freshNess = 1;
+//        gul.price = 5000;
+//
+//
+//        Gul gul2 = new Gul();
+//        gul2.flowerName = "Рамашка";
+//        gul2.freshNess = 2;
+//        gul2.price = 6000;
+//
+//
+//        Gul[] guls = {gul, gul2,};
+//       for (Gul g : guls) {
+//           System.out.println("~~~~~~~~~~~~~~~~~");
+//           g.getInfo();
+//       }
+//
+//            if(gul.price>gul2.price){
+//                System.out.println( "~~~~~~~~~~~~~~~~~~~~~~~~~~");
+//                System.out.println("Эн чонуу ушул:  " +gul.price);
+//
+//
+//
+//            }else{
+//                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+//                System.out.println("Эн чонуу ушул:  " + gul2.price);
+//
+//
+//            }
 
 
 
@@ -52,7 +69,57 @@ public class Main {
 
         }
 
-        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
