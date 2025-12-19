@@ -30,36 +30,36 @@ public class Main {
 
 //        Task5:OOP-----------
 
-//        Gul gul = new Gul();
-//        gul.flowerName = "Роза";
-//        gul.freshNess = 1;
-//        gul.price = 5000;
-//
-//
-//        Gul gul2 = new Gul();
-//        gul2.flowerName = "Рамашка";
-//        gul2.freshNess = 2;
-//        gul2.price = 6000;
-//
-//
-//        Gul[] guls = {gul, gul2,};
-//       for (Gul g : guls) {
-//           System.out.println("~~~~~~~~~~~~~~~~~");
-//           g.getInfo();
-//       }
-//
-//            if(gul.price>gul2.price){
-//                System.out.println( "~~~~~~~~~~~~~~~~~~~~~~~~~~");
-//                System.out.println("Эн чонуу ушул:  " +gul.price);
-//
-//
-//
-//            }else{
-//                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-//                System.out.println("Эн чонуу ушул:  " + gul2.price);
-//
-//
-//            }
+        Gul gul = new Gul();
+        gul.flowerName = "Роза";
+        gul.freshNess = 1;
+        gul.price = 5000;
+
+
+        Gul gul2 = new Gul();
+        gul2.flowerName = "Рамашка";
+        gul2.freshNess = 2;
+        gul2.price = 4000;
+
+
+        Gul[] guls = {gul, gul2,};
+       for (Gul g : guls) {
+           System.out.println("~~~~~~~~~~~~~~~~~");
+           g.getInfo();
+       }
+
+            if(gul.price>gul2.price){
+                System.out.println( "~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                System.out.println("Эн чонуу ушул:  " +gul.price);
+
+
+
+            }else{
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                System.out.println("Эн чонуу ушул:  " + gul2.price);
+
+
+            }
 
 
 
