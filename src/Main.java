@@ -1,4 +1,3 @@
-import javax.crypto.MacSpi;
 import javax.xml.catalog.Catalog;
 import java.io.PrintWriter;
 import java.lang.reflect.GenericArrayType;
@@ -201,8 +200,6 @@ public class Main {
 //            person3.setFirstName("Azamat");
 //            person3.setLastName("Kurbanov");
 //            person3.setAge(2008);
-
-
 
 
 
